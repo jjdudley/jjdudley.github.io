@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    display: grid;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    background-color: #ed4d4d;
+}
+
+.container {
+    margin: auto;
+    border: none;
+    border-radius: 18px;
+    height: 100%;
+    width: 100%; 
+    background-color: #ed4d4d;
+}
+
+.display {
+    margin: auto;
+    border: solid;
+    border-radius: 50%;
+    border-width: 4.5px;
+    border-color: whitesmoke;
+    width: 300px;
+    height: 300px;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    letter-spacing: .3rem;
+    margin-top: 102px;
+}
+
+.time {
+    font-family: 'Raleway', sans-serif;
+    font-weight: Light;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    margin-top: 91px;
+}
+
+.buttons {
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #812929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.work {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #812929;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.work:focus {
+    text-shadow: 2px 2px #5a1d1d;
+    color: whitesmoke;
+}
+
+.pause {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #812929;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.pause:focus {
+    text-shadow: 2px 2px #5a1d1d;
+    color: whitesmoke;
+}
+
+.break {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    color: #812929;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.break:focus {
+    text-shadow: 2px 2px #5a1d1d;
+    color: whitesmoke;
+}
+
+.endTime {
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color:#812929;
+}
